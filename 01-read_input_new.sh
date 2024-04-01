@@ -2,9 +2,9 @@
 # read the name of the user and print hello
 
 #Edited again, lines 5, 6, 7 are changed.
-echo "Enter name for new file"
-read file_name
-touch $file_name
+echo "Enter filename"
+read filename
+touch $filename
 
 # read name
 # echo "Welcome, $name"
