@@ -1,10 +1,10 @@
 #!/bin/bash
 # read the name of the user and print hello
 
-#Edit to prompt user for a filename, then create an enpty file named after it.
-echo "Enter new file name"
-read filename
-touch $filename
+#Edited again, lines 5, 6, 7 are changed.
+echo "Enter name for new file"
+read file_name
+touch $file_name
 
 # read name
 # echo "Welcome, $name"
