@@ -1,7 +1,11 @@
 #!/bin/bash
 # read the name of the user and print hello
 
-echo "Hello! My name is Puen Xie"
+#Edit to prompt user for a filename, then create an enpty file named after it.
+echo "Enter new file name"
+read filename
+touch $filename
+
 # read name
 # echo "Welcome, $name"
 
